@@ -10,7 +10,7 @@ node 'web.example.com' {
         }
 }
 node 'mail.example.com' {
-        package { 'vim':
+        package { 'vi':
                 ensure => present,
         }
 }
